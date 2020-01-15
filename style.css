@@ -1,0 +1,52 @@
+body {
+  background-color: #DC1D2C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#controls {
+  height: 40px;
+}
+
+.btn {
+  background: #1ec71e;
+  color: white;
+  height: 100%;
+  display: inline-block;
+  line-height: 40px;
+  border-radius: 6px;
+  padding-left: 13px;
+  padding-right: 13px;
+  cursor: pointer;
+  vertical-align: top;
+}
+.btn:hover {
+  background: #4ee44e;
+}
+.btn:focus {
+  background: #1ec71e;
+}
+
+#pokemon-input {
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 40px;
+  font-size: 17px;
+  padding: 0 13px;
+}
+
+#pokemon {
+  background-color: white;
+  margin-top: 14px;
+  display: none;
+  text-align: center;
+  border: 30px solid #cccccc;
+  border-bottom-left-radius: 30px;
+}
+
+#pokemon img {
+  width: 250px;
+}
+
+#pokemon h3 {
+  font-size: 30px;
+}
